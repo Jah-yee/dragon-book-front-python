@@ -39,11 +39,11 @@ class Array(Type):
         return "[" + str(self.size) + "]" + str(self.of)
 
 
-class Enviroment(object):
-    """Enviroment"""
+class Environment(object):
+    """Environment"""
 
     def __init__(self, prev):
-        super(Enviroment, self).__init__()
+        super(Environment, self).__init__()
         self.prev = prev
         self.table = dict()
 
